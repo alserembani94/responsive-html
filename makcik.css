@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: aliceblue;
+  box-shadow: 6px -6px 4px #00000065;
+  height: 300px;
+  flex-basis: 200px;
+  flex-grow: 1;
+  padding: 1rem;
+  border-radius: 12px;
+}
